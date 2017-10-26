@@ -9,6 +9,7 @@ You can include dist files as well to get
 
 # how to use it
 - define config
+
 ```
 ---
 dev:
@@ -52,7 +53,9 @@ dev:
         segments: "0-10,11,50-100"
         config: "{}"
 ```
+
 - For Code refer tests.
+
 ```
 import Experimentation from 'experimentation';
 import { Config } from Experimentation;
@@ -66,3 +69,6 @@ let samples = exp.computeSamples({
 
 # Features
 - refer rfcs folder
+
+# Bob Jenkins
+ - copied code from https://raw.githubusercontent.com/vkandy/jenkins-hash-js with slide modifications.
