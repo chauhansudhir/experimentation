@@ -16,7 +16,7 @@ const js = esTranspiler(src, {
   ],
 
   plugins: [
-    "babel-plugin-transform-es2015-modules-amd"
+    "babel-preset-env"
   ],
 
   moduleIds: true,
